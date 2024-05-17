@@ -1,3 +1,344 @@
 .adminDashboard{
     display: flex;
 }
+
+.homeSection{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 60px 80px 40px 30px;
+    flex: 0.9;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+.searchInput{
+    width: 740px;
+    height: 50px;
+    background-color: #FAFAFA;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border: none;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.search{
+    height: 24px;
+}
+
+.searchInput::placeholder{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4C4C4C; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileSection{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.profiledetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userDetails{
+    display: flex;
+    text-wrap: nowrap;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.userName{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #4C4C4C;    
+}
+
+.userDesignation{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #B3B3B3;    
+}
+
+.alert{
+    height: 45px;
+}
+
+.contentSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContentSection{
+    display: flex;
+    flex-direction: column;  
+    gap: 30px;
+    flex: 0.6;
+}
+
+.salesImages{
+    display: flex;
+    gap: 40px;
+
+}
+
+.backgroundImage{
+    background-image: url("/public/images/mainSection/17-athletics.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 80px;
+    z-index: -1;
+    border-radius: 5px;
+    /* padding-left: 10px; */
+    color: white;
+
+}
+
+.imageOverlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding-left: 10px;
+    align-content: center;
+    width: 218px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.imageNumber{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;  
+    /* margin-bottom: 10px;   */
+}
+
+.imageSubtext{
+    margin-top: 10px;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;    
+}
+
+.fliterSection{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.fliterSectionText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.allArtistText{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #4C4C4C;    
+}
+
+.allArtistSubtext{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #B3B3B3;    
+}
+
+.searchArtist{
+    margin-top: 15px;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    align-content: flex-end;
+}
+
+.searchArtistInput{
+    width: 240px;
+    height: 30px;
+    background-color: #FAFAFA;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border: none;
+}
+
+.searchArtistInput:focus{
+    outline: none;
+}
+
+.filterInputSection{
+    display: flex;
+    gap: 20px;
+}
+
+.filterButton{
+    display: flex;
+    margin-top: 15px;
+    gap: 5px;
+    height: 40px;
+    padding: 0px 5px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leaderboardSection{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.bestSellingArtist{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #FCFCFC;
+    padding: 30px 20px 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.bestSellingArtistTitle{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;    
+}
+
+.artistsDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.artist{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.artistName{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;    
+    color: #4C4C4C;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.artistDetail{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #808080;    
+}
+
+.viewAllButton{
+    border-radius: 4px;  
+    padding: 10px;  
+    border: none;
+    background-color: #B4CD93;
+    cursor: pointer;
+}
+
+.dateTime{
+    display: flex;
+    padding: 35px 30px;
+    background-color: #FCFCFC;
+    gap: 56px;
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.time > div:nth-child(1){
+    padding: 12px 14px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+}
+.time > div:nth-child(2){
+    font-size: 25px;
+}
+
+.time > div:nth-child(3){
+    padding: 12px 14px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+}
+.time > div:nth-child(4){
+    padding: 12px 14px;
+    border-radius: 4px;
+    background-color: #B4CD93;
+}
+
+.date{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: #4C4C4C;    
+}
