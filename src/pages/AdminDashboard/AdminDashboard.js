@@ -66,6 +66,28 @@ export const AdminDashboard = () => {
                 </div>
               </div>
             </div>
+            <div className={style.artistTable}>
+              <div className={style.tableHeading}>
+                <div>Artist</div>
+                <div>Status</div>
+                <div>Ratings</div>
+                <div>Projects sold</div>
+                <div>Highest sale</div>
+              </div>
+              <div className={style.tableBottom}>
+                <div className={style.previousPage}>Previous page</div>
+                <div className={style.pages}>
+                  <div className={style.page}>1</div>
+                  <div className={style.page}>2</div>
+                  <div className={style.page}>3</div>
+                  <div className={style.page}>4</div>
+                  <div className={style.page}>5</div>
+                  <div className={style.page}>6</div>
+                  <div className={style.page}>7</div>
+                </div>
+                <div>Next page</div>
+              </div>
+            </div>
           </section>
           <section className={style.leaderboardSection}>
             <div className={style.bestSellingArtist}>
