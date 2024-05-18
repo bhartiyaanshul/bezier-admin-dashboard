@@ -1,0 +1,117 @@
+.artistTable{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.tableHeading{
+    display: flex;
+    gap: 20px;
+    padding: 12px 24px;
+    background-color: #F7F7F7;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #4C4C4C;    
+}
+
+.headingArtistName{
+    margin-right: 100px;
+}
+
+.headingArtistStatus{
+    margin-right: 60px;
+}
+
+.headingArtistRating{
+    margin-right: 180px;
+}
+
+.headingArtistSold{
+    margin-right: 50px;
+
+}
+
+.tableBottom{
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    background-color: #F7F7F7;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}
+
+.previousPage{
+    color: #9F9F9F;
+}
+
+.pages{
+    display: flex;
+    gap: 10px;
+}
+
+.page{
+    padding: 2px 7px 2px 7px;
+    background-color: #E6E6E6;
+    border-radius: 50%;
+}
+
+.artistDetails{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 18px 24px;
+    background-color: #fcfcfc;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #808080;  
+}
+
+.artistDetail{
+    display: flex;
+    gap: 10px;
+    align-items: center;  
+    width: 100px;
+}
+
+.artistname{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #808080;    
+}
+
+.verificationStatus{
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.artistRating{
+    width: 180px;
+    margin-right: 15px;
+}
+
+.artistSold{
+    width: 90px;
+}
+
+.tableLine{
+    padding: 1px;
+    background-color: #F2F2F2;
+}

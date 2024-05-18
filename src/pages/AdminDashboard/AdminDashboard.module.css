@@ -160,7 +160,7 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .fliterSectionText{
@@ -343,49 +343,5 @@
     color: #4C4C4C;    
 }
 
-.artistTable{
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-}
 
-.tableHeading{
-    display: flex;
-    gap: 20px;
-    padding: 12px 24px;
-    background-color: #F7F7F7;
-    font-family: Manrope;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    text-align: left;
-    color: #4C4C4C;    
-}
-
-.tableBottom{
-    display: flex;
-    gap: 24px;
-    padding: 24px;
-    background-color: #F7F7F7;
-    font-family: Manrope;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    text-align: left;
-}
-
-.previousPage{
-    color: #9F9F9F;
-}
-
-.pages{
-    display: flex;
-    gap: 10px;
-}
-
-.page{
-    padding: 2px 7px 2px 7px;
-    background-color: #E6E6E6;
-    border-radius: 50%;
-}
 
