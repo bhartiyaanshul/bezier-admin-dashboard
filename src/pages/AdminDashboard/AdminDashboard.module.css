@@ -343,5 +343,79 @@
     color: #4C4C4C;    
 }
 
+@media screen and (max-width: 1200px){
+    .homeSection{
+        padding: 60px 40px 40px 20px;
+    }
+
+    .header{
+        gap: 20px;
+    }
+
+    .profileSection{
+        gap: 20px;
+    }
 
 
+    .searchInput{
+        width: 600px;
+    }
+
+    .mainContentSection{
+        flex: 0.7;
+    }
+
+    .backgroundImage{
+        width: 200px;
+        height: 60px;
+    }
+
+    .imageOverlay{
+        width: 160px;
+        height: 60px;
+    }
+
+    .bestSellingArtist{
+        padding: 20px 10px 10px 10px;
+    }
+
+    .dateTime{
+        padding: 35px 20px;
+        gap: 40px;
+    }
+
+    .time > div:nth-child(1){
+        padding: 10px 12px;
+    }
+
+    .time > div:nth-child(2){
+        font-size: 20px;
+    }
+
+    .time > div:nth-child(3){
+        padding: 10px 12px;
+    }
+
+    .time > div:nth-child(4){
+        padding: 10px 12px;
+    }
+
+    .contentSection{
+        flex-direction: column;
+    }
+
+    .leaderboardSection{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .Sidebar{
+        display: none;
+    }
+
+    .userDetails{
+        display: none;
+    }
+}

@@ -8,7 +8,8 @@ export const AdminDashboard = () => {
 
   return (
     <div className={style.adminDashboard}>
-      <Sidebar />
+      <Sidebar className={style.Sidebar}/>
+      
       <section className={style.homeSection}>
         {/* header */}
         <section className={style.header}>
